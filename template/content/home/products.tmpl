@@ -1,0 +1,60 @@
+<div class="item-product">
+<<<<<<< HEAD
+qwdqwdqwd
+    <div class="img-product">
+        <img src="/file/product/{id_brand}/{id_product}/{main_pic}" alt="{id_btand}/{id_product}">
+    </div>
+=======
+
+    <div onclick="location.assign('/product_display/{id_product}');">
+
+        <div class="img-product">
+            <img src="/file/product/{id_brand}/{id_product}/{main_pic}" alt="{id_brand}/{id_product}">
+        </div>
+
+        <div class="description-product">
+            <h2>{name_product}</h2>
+>>>>>>> onboxdev
+
+            <div class="mini_desc">
+                {mini_desc}
+            </div>
+
+            <!--<div class="price sale">-->
+            <!--55 <span class="currency">бел.руб.</span>-->
+
+            <!--<div class="price-sale">-->
+            <!--<i></i>-->
+            <!--{price_product} <span class="currency">бел.руб.</span>-->
+            <!--</div>-->
+
+            <!--</div>-->
+
+            <div class="price">
+                {price} <span class="currency">бел.руб.</span>
+
+            </div>
+
+
+
+
+            <div class="article">
+                арт. N: {article}
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="info-status-product">
+        <!--<div class="shipping" title="Бесплатная доставка"></div>-->
+        <!--<div class="one-product" title="Бесплатная доставка"></div>-->
+        <!--<div class="new-product" title="Бесплатная доставка"></div>-->
+        <!--<div class="box-product" title="Бесплатная доставка"></div>-->
+        <!--<div class="gift-product" title="Бесплатная доставка"></div>-->
+        <div class="basket" title="Положить в корзину" onclick="ajaxVS({url:'{patch_url}', p:'proc=process', callback:'cart'})"></div>
+    </div>
+</div>
+
